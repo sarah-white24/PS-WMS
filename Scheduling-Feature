@@ -1,0 +1,10 @@
+# Code for the Scheduling Feature of the WMS 
+#
+# This feature allows waste collection companies to create and manage
+# collection schedules. It ensures that bins are emptied at optimal times
+# based on historical data and current fill levels. 
+# The scheduling system can: 
+#  > Automatically generate collection schedules. 
+#  > Adjust schedules dynamically based on real-time data.
+#  > Notify operators of upcoming collections and any changes. 
+
