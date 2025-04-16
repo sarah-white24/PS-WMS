@@ -1,0 +1,9 @@
+# Code for the Waste Monitoring Feature of the WMS 
+#
+# This feature involves tracking the fill levels of bins using IoT sensors. 
+# It helps in identifying which nins need to be collected sooner and which 
+# areas generate more waste. 
+# Waste monitoring can: 
+#  > Provide real-time data on bin fill levels.
+#  > Send alerts when bins are nearly full. 
+#  > Analyse waste generation patterns over time. 
