@@ -1,0 +1,9 @@
+# Code for Notifications and Alerts Feature in the WMS
+#
+# This feature ensures that operators are always informed about the status 
+# of the bins and the collection process. 
+# Notifications and alerts can:
+#  > Send reminders for upcoming collections.
+#  > Alert operators to any issues, such as overfilled bins or route changes. 
+#  > Provide updates on the system's performance and any necessary 
+#    maintenance. 
