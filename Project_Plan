@@ -5,17 +5,17 @@ Planning and Scheduling Waste Management System
         a. Scheduling
         b. Route Optimisation 
         c. Waste Monitoring 
-    > Data Sources
+    > Data Sources:
         a. Bin Locations
         b. Waste Levels
         c. Collection Schedules 
 
 2. Architecture
-    > System Architecture
+    > System Architecture:
         a. Data Collection
         b. Processing
         c. User Interface (UI)
-    > Hardware Components 
+    > Hardware Components:
         a. Sensors for Bins 
     > Software Components
 
@@ -34,7 +34,7 @@ Planning and Scheduling Waste Management System
 
 6. User Interface
     > User-friendly interface for waste company operators to view schedules and routes.
-    > Web technologies for a responsive design 
+    > Web technologies for a responsive design: 
         a. HTML
         b. CSS
         c. JavaScript
