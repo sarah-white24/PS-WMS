@@ -20,5 +20,12 @@
 #  5. Notifications: Set up notifications to alert operators of upcoming 
 #     collections and any schedule changes. 
 #
-# T
+# Tools and Technologies --> 
+#  > Prgramming Language: Python, JavaScript 
+#  > Libraries:
+#      a. Pandas
+#      b. NumPy for data analysis
+#      c. Flask or Django for web development
+#  > Database: SQL or NoSQL databases to store scheduling data. 
+
 
