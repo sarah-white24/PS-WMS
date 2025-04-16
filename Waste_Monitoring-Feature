@@ -27,3 +27,53 @@
 #  > Software: 
 #      a. Python for data processing
 #      b. Flask or Django for web interface
+----------------------------------------------------------------------------
+1. Requirements
+  > Key Metrics:
+      a. Bin Fill Levels
+      b. Locations
+      c. Temperature 
+  > Sensor: Ultrasonic Sensor 
+
+2. Hardware
+  > Sensor: EM310-UDL LoRaWAN Ultrasonic Distance/Level Sensor
+  > Microcontroller: Arduino or Raspberry Pi to process sensor data.
+  > Communication Module: LoRaWAN or GSM to transmit data to a central server. 
+
+3. Setting up Sensor
+  > Install: Securely mounted and positioned correctly 
+  > Callibrate: Ensure accurate measurements
+
+4. Data Transmission
+  > Communication: LoRaWAN or GSM 
+  > Server Setup: Cloud services - AWS or Azure for scalability
+
+5. Data Processing
+  > Software Development: Python for data processing and analysis
+  > Data Storage: SQL and NoSQL for easy access and analysis
+
+6. Real-Time Monitoring
+  > Dashboard: Web technologies like HTML, CSS and JavaScript for the Frontend
+  > Alerts: Alerts to notify operators when bins are nearly full. 
+
+Example Code --> 
+* Ultrasonic sensor with an Arduino * 
+Programming Language: C++
+
+#include <Ultrasonic.h> 
+
+Ultrasonic ultrasonic(12, 13); // Trigger pin, Echo pin
+
+void setup()
+{
+  Serial;.begin(9600);
+}
+
+void loop()
+{
+  long distance - ultrasonic.Ranging(CM); 
+  Serial.print("Distance: "); 
+  Serial.print(distance);
+  Serial.println(" cm"); 
+  delay(1000);
+}
