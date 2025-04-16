@@ -1,0 +1,9 @@
+# Code for the User Interface for the WMS
+#
+# A user-friendly interface is essential for operators to interact with the 
+# system. This feature provides a dashboard where operators can view
+# schedules, routes and waste data.
+# This user interface can: 
+#  > Display real-time data and alerts. 
+#  > Allow operators to manually adjust schedules and routes. 
+#  > Provide easy access to reports and analytics. 
