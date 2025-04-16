@@ -1,0 +1,10 @@
+# Code for the Route Optimisation Feature 
+#
+# Route optimisation is crucial for minimising travel time and fuel 
+# consumption. This feature uses algorithms to determine the most efficient
+# routes for waste collection trucks. 
+# It can: 
+#  > Calculate the shortest and fastest routes. 
+#  > Consider factors like traffic conditions, road closures, and bin 
+#    fill levels. 
+#  > Provide real-time route adjustments to avoid delays. 
