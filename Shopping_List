@@ -1,19 +1,22 @@
 Hardware: 
   1. Sensors: 
     > Ultrasonic Sensor: EM310-UDL LoRaWAN Ultrasonic Distance/Level Sensor
-                         HC-SR04
-    > Temperature Sensor: DS18B20 
+                         HC-SR04 - Using for Prototype
+    > Temperature Sensor: DS18B20 - Using
                           DHT22
 
   2. Microcontrollers: 
     > Arduino: Arduino Uno
-               Arduino Mega 
-    > Raspberry Pi: Raspberry Pi 4
+               Arduino Mega - Using 
+    > Raspberry Pi: Raspberry Pi 4 - Using
+Arduino --> Collects data from sensors and sends it to the Raspberry Pi.
+Raspberry Pi --> For processing the collected data, running the web interface, 
+                 and managing communication with external services.
 
   3. Communication Modules: 
-    > LoRaWAN Modules: Dragino LoRa Shield for Arduino 
-                       RAK811 LoRa Module for Raspberry Pi. 
-    > GSM Modules: SIM800L GSM/GPRS Module for cellular communication 
+    > Wi-Fi Module: Build-in Wi-Fi for Pasberry Pi 4 Model B - Using
+    > ESP8266 Wi-Fi Module: For Arduino 
+    > ESP32 Wi-Fi Module: For Arduino - Advanced Version of ESP8266 - Using 
 
   4. Power Supply: 
     > Batteries: Rechargeable Li-ion batteries with appropriate capcity
